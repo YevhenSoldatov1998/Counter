@@ -2,25 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fc5e198-b039-4e6a-a586-96840b6a5413" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Counter.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CounterButton/CounterButton.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CounterContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CounterScreen/CounterScreen.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/counterReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CounterButtons/Button.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Counter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Counter.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CounterButton/CounterButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CounterButtons/CounterButtons.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CounterContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CounterContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CounterScreen/CounterScreen.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CounterScreen/CounterScreen.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/counterReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/counterReducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,8 +86,25 @@
       <updated>1577459227625</updated>
       <workItem from="1577459229126" duration="8567000" />
       <workItem from="1577487196549" duration="15000" />
-      <workItem from="1577556618384" duration="7738000" />
+      <workItem from="1577556618384" duration="7859000" />
+      <workItem from="1577717210194" duration="1075000" />
+      <workItem from="1577799522134" duration="2542000" />
     </task>
+    <task id="LOCAL-00001" summary="transfer to redux">
+      <created>1577564703435</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577564703435</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test">
+      <created>1577799563017</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577799563017</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,5 +122,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="transfer to redux" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>

@@ -8,11 +8,11 @@ const mapStateToProps = (state) => {
 }
 const mapDispatchToProps = (dispatch) =>{
     return {
-        handleInc: (btn)=>{
-            dispatch(INCREMENT_CREATOR(btn))
+        handleInc: ()=>{
+            dispatch(INCREMENT_CREATOR())
         },
-        handleReset: (btn)=>{
-            dispatch(RESET_CREATOR(btn))
+        handleReset: ()=>{
+            dispatch(RESET_CREATOR())
         }
     }
 }
