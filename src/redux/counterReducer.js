@@ -13,20 +13,20 @@ let initialState = {
 const counterReducer = (state = initialState, action) => {
     switch (action.type) {
         case INCREMENT:
-            let newButtons = state.buttons.map(el=> {
-                if(el.id === action.btn.id){
+            let newButtons = state.buttons.map(el => {
+                if (el.id === action.btn.id) {
                     return {...el, isDisable: true}
                 }
                 return {...el}
             })
             return {
                 ...state,
-                valueScreen: state.valueScreen !== state.maxInc ? state.valueScreen + 1 :  state.valueScreen,
-                buttons: state.valueScreen===state.maxInc-1?newButtons:state.buttons,
-                styled: state.valueScreen===state.maxInc-1?1:0
+                valueScreen: state.valueScreen !== state.maxInc ? state.valueScreen + 1 : state.valueScreen,
+                buttons: state.valueScreen === state.maxInc - 1 ? newButtons : state.buttons,
+                styled: state.valueScreen === state.maxInc - 1 ? 1 : 0
             }
         case RESET:
-            let newButton = state.buttons.map(el =>({...el,isDisable: false}))
+            let newButton = state.buttons.map(el => ({...el, isDisable: false}))
             return {
                 ...state,
                 valueScreen: 0,
