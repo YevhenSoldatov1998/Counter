@@ -1,9 +1,0 @@
-import React from 'react'
-const Button = (props) => {
-
-    return (
-        <button  disabled={false}>{props.title}</button>
-    )
-
-}
-export default Button

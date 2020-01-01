@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fc5e198-b039-4e6a-a586-96840b6a5413" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/CounterButtons/Button.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Counter/Counter.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Counter/CounterButtons/CounterButtons.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Counter/CounterScreen/CounterScreen.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CounterSet/CouterSetButton/CouterSetButton.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Counter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Counter.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CounterButton/CounterButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CounterButtons/CounterButtons.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CounterContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CounterContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CounterScreen/CounterScreen.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CounterScreen/CounterScreen.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Counter.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CounterButtons/Button.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CounterButtons/CounterButtons.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CounterContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Counter/CounterContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CounterScreen/CounterScreen.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/counterReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/counterReducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +37,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/CounterSet" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -39,12 +45,14 @@
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\course\exam\src\components\CounterSet" />
+      <recent name="C:\course\exam\src\components\CounterButton" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\course\exam\src\components\Counter" />
       <recent name="C:\course\exam\src\redux" />
       <recent name="C:\course\exam\src\components\CounterScreen" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\course\exam\src\components\CounterButton" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -88,7 +96,9 @@
       <workItem from="1577487196549" duration="15000" />
       <workItem from="1577556618384" duration="7859000" />
       <workItem from="1577717210194" duration="1075000" />
-      <workItem from="1577799522134" duration="2542000" />
+      <workItem from="1577799522134" duration="3958000" />
+      <workItem from="1577892643209" duration="17000" />
+      <workItem from="1577904823651" duration="5736000" />
     </task>
     <task id="LOCAL-00001" summary="transfer to redux">
       <created>1577564703435</created>
@@ -104,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577799563017</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Buttons methods">
+      <created>1577803942286</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577803942286</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +143,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="transfer to redux" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="Buttons methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Buttons methods" />
   </component>
 </project>
