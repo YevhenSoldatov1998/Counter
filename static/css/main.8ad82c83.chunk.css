@@ -1,0 +1,2 @@
+.counter{font-size:32px;flex-direction:column;height:40vh}.counter,.counter-screen{display:flex;justify-content:center;align-items:center}.counter-screen{height:60px;width:200px;font-family:Arial,sans-serif;font-size:42px;background-color:#42b7ff;color:#fff}.counter-screen.active{color:red}button{font-size:20px;width:100px}
+/*# sourceMappingURL=main.8ad82c83.chunk.css.map */
