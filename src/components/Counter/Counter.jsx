@@ -12,12 +12,12 @@ const Counter = (props) => {
                                 valueScreen={props.counter.valueScreen} handleReset={props.handleReset}
                                />
             </div>
-            <CounterSet
-                maxInc={props.counter.maxInc}
-                startValue = {props.counter.startValue}
-                InputStartValue={props.InputStartValue}
-                InputMaxInc={props.InputMaxInc}
-            />
+            {/*<CounterSet*/}
+            {/*    maxInc={props.counter.maxInc}*/}
+            {/*    startValue = {props.counter.startValue}*/}
+            {/*    InputStartValue={props.InputStartValue}*/}
+            {/*    InputMaxInc={props.InputMaxInc}*/}
+            {/*/>*/}
         </>
     )
 
