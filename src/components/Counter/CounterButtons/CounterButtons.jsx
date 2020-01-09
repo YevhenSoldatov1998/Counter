@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from "../../Button/Button";
+import Button from "../../common/Button/Button";
 
 class CounterButtons extends React.Component {
 
@@ -15,10 +15,8 @@ class CounterButtons extends React.Component {
         const disabled = this.props.valueScreen === this.props.maxInc ? 1 : 0;
         return (
             <div className={`btn-wrap`}>
-                <Button title='INC' callback={this.call_handleInc}/>
+                <Button title='INC' disabled={disabled} callback={this.call_handleInc}/>
                 <Button title='RESET' callback={this.call_handleReset}/>
-                {/*<button onClick={this.call_handleInc} disabled={disabled}>INC</button>*/}
-                {/*<button onClick={this.call_handleReset}>RESET</button>*/}
             </div>
         )
     }

@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fc5e198-b039-4e6a-a586-96840b6a5413" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Button/Button.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Button/Button.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Counter/Counter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Counter/Counter.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Counter/CounterButtons/CounterButtons.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Counter/CounterButtons/CounterButtons.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Counter/CounterContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Counter/CounterContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Counter/CounterScreen/CounterScreen.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Counter/CounterScreen/CounterScreen.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/counterReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/counterReducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,19 +32,24 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Counter/CounterScreen" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\course\exam\src\components\Counter\CounterScreen" />
       <recent name="C:\course\exam\src\components\CounterSet" />
       <recent name="C:\course\exam\src\components\CounterButton" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\course\exam\src\components\common" />
       <recent name="C:\course\exam\src\components\Counter" />
       <recent name="C:\course\exam\src\redux" />
       <recent name="C:\course\exam\src\components\CounterScreen" />
@@ -58,8 +67,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -72,6 +91,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.deploy" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -91,6 +115,9 @@
       <workItem from="1577892643209" duration="17000" />
       <workItem from="1577904823651" duration="5872000" />
       <workItem from="1578048649934" duration="1446000" />
+      <workItem from="1578051244550" duration="687000" />
+      <workItem from="1578132911811" duration="600000" />
+      <workItem from="1578595530354" duration="3685000" />
     </task>
     <task id="LOCAL-00001" summary="transfer to redux">
       <created>1577564703435</created>
@@ -120,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577915526797</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="button setting">
+      <created>1578051269476</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578051269476</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +178,7 @@
     <MESSAGE value="test" />
     <MESSAGE value="Buttons methods" />
     <MESSAGE value="add set" />
-    <option name="LAST_COMMIT_MESSAGE" value="add set" />
+    <MESSAGE value="button setting" />
+    <option name="LAST_COMMIT_MESSAGE" value="button setting" />
   </component>
 </project>

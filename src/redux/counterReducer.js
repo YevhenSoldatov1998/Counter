@@ -13,6 +13,7 @@ let initialState = {
     valueScreen: 0,
     startValue: 0,
     maxInc: 5,
+    error: false
 }
 const counterReducer = (state = initialState, action) => {
     let {valueScreen, startValue, maxInc} = state;
@@ -28,11 +29,18 @@ const counterReducer = (state = initialState, action) => {
                 valueScreen: startValue
             }
         case INPUT_START_VALUE:
-            return {
-                ...state,
-                startValue: +action.start,
-                valueScreen:  +action.start
+            if(startValue >= 0 ){
+                return {
+                    ...state,
+                    startValue: +action.start,
+                    valueScreen:  +action.start,
+                    error: false
+                }
             }
+            else {
+                return {...state, error: true}
+            }
+
         case INPUT_MAX_VALUE:
             if(+action.max >= state.startValue){
                 return {

@@ -7,17 +7,20 @@ const Counter = (props) => {
     return (
         <>
             <div className={`counter`}>
-                <CounterScreen maxInc={props.counter.maxInc} valueScreen={props.counter.valueScreen}/>
-                <CounterButtons handleInc={props.handleInc} maxInc={props.counter.maxInc}
+                <CounterScreen error = {props.error} isSetting={props.isSetting} maxInc={props.counter.maxInc} valueScreen={props.counter.valueScreen}/>
+                <CounterButtons error = {props.error} isSetting={props.isSetting} handleInc={props.handleInc} maxInc={props.counter.maxInc}
                                 valueScreen={props.counter.valueScreen} handleReset={props.handleReset}
                                />
             </div>
-            {/*<CounterSet*/}
-            {/*    maxInc={props.counter.maxInc}*/}
-            {/*    startValue = {props.counter.startValue}*/}
-            {/*    InputStartValue={props.InputStartValue}*/}
-            {/*    InputMaxInc={props.InputMaxInc}*/}
-            {/*/>*/}
+            <CounterSet
+                error = {props.error}
+                setCounter ={props.setCounter}
+                maxInc={props.counter.maxInc}
+                startValue = {props.counter.startValue}
+                InputStartValue={props.InputStartValue}
+                InputMaxInc={props.InputMaxInc}
+                activeCounter={props.activeCounter}
+            />
         </>
     )
 

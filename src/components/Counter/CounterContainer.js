@@ -1,4 +1,5 @@
 import {connect} from "react-redux";
+import React from 'react';
 import Counter from "./Counter";
 import {
     INCREMENT_CREATOR,
@@ -6,16 +7,35 @@ import {
     INPUT_START_VALUE_CREATOR,
     RESET_CREATOR
 } from '../../redux/counterReducer'
-const mapStateToProps = (state) => {
-    return {
-        counter: state.counter
+
+
+class CounterContainer extends React.Component {
+    state ={
+        isSetting: false
+    }
+    setCounter = () => {
+        this.setState({
+            isSetting: true
+        })
+    }
+    activeCounter = () => {
+        this.setState({
+            isSetting: false
+        })
+    }
+
+    render(){
+        return  < Counter activeCounter={this.activeCounter} setCounter={this.setCounter} {...this.props} {...this.state}/>
     }
 }
 
-const  CounterContainer = connect(mapStateToProps, {
+const mapStateToProps = (state) => {
+    return {counter: state.counter}
+}
+
+export default connect(mapStateToProps, {
     handleInc: INCREMENT_CREATOR,
     handleReset: RESET_CREATOR,
     InputStartValue: INPUT_START_VALUE_CREATOR,
     InputMaxInc: INPUT_MAX_VALUE_CREATOR
-})(Counter)
-export default CounterContainer
+})(CounterContainer)
