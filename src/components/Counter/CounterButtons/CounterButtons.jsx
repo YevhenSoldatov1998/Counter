@@ -2,9 +2,11 @@ import React from 'react'
 import Button from "../../common/Button/Button";
 
 class CounterButtons extends React.Component {
-
-    call_handleInc = () => {
+    constructor(props) {
+        super(props);
         debugger
+    }
+    call_handleInc = () => {
         this.props.handleInc()
     };
     call_handleReset = () => {
@@ -12,11 +14,26 @@ class CounterButtons extends React.Component {
     };
 
     render() {
-        const disabled = this.props.valueScreen === this.props.maxInc ? 1 : 0;
+        const disabledInc = () => {
+            if(this.props.valueScreen >= this.props.maxInc ){
+                return 1
+            }
+            else if(this.props.error){
+                return 1
+            }
+            else if(this.props.isSetting){
+                return 1
+            }
+            else{
+                return 0
+            }
+        }
+        const disabledReset = this.props.isSetting ? 1 : 0;
         return (
             <div className={`btn-wrap`}>
-                <Button title='INC' disabled={disabled} callback={this.call_handleInc}/>
-                <Button title='RESET' callback={this.call_handleReset}/>
+                <Button title='INC' disabled={disabledInc()} callback={this.call_handleInc}/>
+                <Button title='RESET' disabled={disabledReset}  callback={this.call_handleReset}/>
+
             </div>
         )
     }

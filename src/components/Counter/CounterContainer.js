@@ -2,10 +2,11 @@ import {connect} from "react-redux";
 import React from 'react';
 import Counter from "./Counter";
 import {
-    INCREMENT_CREATOR,
-    INPUT_MAX_VALUE_CREATOR,
-    INPUT_START_VALUE_CREATOR,
-    RESET_CREATOR
+    handleInc,
+    InputMaxInc,
+    InputStartValue,
+    handleReset,
+    handleSet
 } from '../../redux/counterReducer'
 
 
@@ -34,8 +35,9 @@ const mapStateToProps = (state) => {
 }
 
 export default connect(mapStateToProps, {
-    handleInc: INCREMENT_CREATOR,
-    handleReset: RESET_CREATOR,
-    InputStartValue: INPUT_START_VALUE_CREATOR,
-    InputMaxInc: INPUT_MAX_VALUE_CREATOR
+    handleInc,
+    handleReset,
+    InputStartValue,
+    InputMaxInc,
+    handleSet
 })(CounterContainer)
