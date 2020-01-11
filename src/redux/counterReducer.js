@@ -51,6 +51,14 @@ const counterReducer = (state = initialState, action) => {
                 return {
                     ...state,
                     maxInc: +action.max,
+                    error: false
+                }
+            }
+            else if(action.max < state.startValue){
+                return {
+                    ...state,
+                    maxInc: +action.max,
+                    error: true
                 }
             }
 
